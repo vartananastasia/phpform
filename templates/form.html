@@ -1,8 +1,8 @@
-{{ include header.php }}
+{{ include header.html }}
 
 <form name="{{ form_name }}" method="post" action="/index.php?route=form/send&form={{ form_name }}">
     {{ form }}
     <input type="submit" value="Отправить">
 </form>
 
-{{ include footer.php }}
+{{ include footer.html }}
